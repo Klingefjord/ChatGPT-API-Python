@@ -1,4 +1,6 @@
  # Unofficial ChatGPT API for python
+ 
+ 
 *WARNING - You will need to provide your OpenAI username and password for the bot to log in to the webpage.
 Do so at your own risk. Read the code and make sure it doesn't do anything fishy.
     
@@ -10,7 +12,7 @@ This class wraps a headless playwright browser instance that navigates to the ch
 
 usage:
 
-```
+```python
 chat = ChatGPT(openai_username, openai_password)
 
 # connect to the browser
